@@ -20,7 +20,7 @@ namespace gestioneAlunni
         public string toString(alunno p)
         {
             string s = "";
-            s = p.nome + p.cognome + p.età.ToString() + p.città;
+            s = p.nome + " " + p.cognome + " " + p.età.ToString() + " " + p.città;
             return s;
         }
         

@@ -1,0 +1,16 @@
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\bin\Debug\gestioneAlunni.exe.config
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\bin\Debug\gestioneAlunni.exe
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\bin\Debug\gestioneAlunni.pdb
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.csproj.AssemblyReference.cache
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.csproj.SuggestedBindingRedirects.cache
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\MainWindow.g.cs
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\App.g.cs
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni_MarkupCompile.cache
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni_MarkupCompile.lref
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\MainWindow.baml
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.g.resources
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.Properties.Resources.resources
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.csproj.GenerateResource.cache
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.csproj.CoreCompileInputs.cache
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.exe
+C:\Users\ludovico.ganapini\source\repos\gestioneAlunni\gestioneAlunni\obj\Debug\gestioneAlunni.pdb

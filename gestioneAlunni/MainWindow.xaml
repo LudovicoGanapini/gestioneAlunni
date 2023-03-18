@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txtAlunnoNome" HorizontalAlignment="Left" Margin="66,89,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAlunnoCognome" HorizontalAlignment="Left" Margin="66,112,0,0" TextWrapping="Wrap" Text="cognome" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAlunnoCittà" HorizontalAlignment="Left" Margin="66,158,0,0" TextWrapping="Wrap" Text="città" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAlunnoCrea" Content="crea" HorizontalAlignment="Left" Margin="66,181,0,0" VerticalAlignment="Top" Click="btnAlunnoCrea_Click"/>
+        <TextBox x:Name="txtScuolaNome" HorizontalAlignment="Left" Margin="280,89,0,0" TextWrapping="Wrap" Text="nome" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtScuolaIndirizzo" HorizontalAlignment="Left" Margin="280,112,0,0" TextWrapping="Wrap" Text="indirizzo" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="txtScuolaApertura" HorizontalAlignment="Left" Margin="280,135,0,0" TextWrapping="Wrap" Text="apertura" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtScuolaChiusura" HorizontalAlignment="Left" Margin="280,158,0,0" TextWrapping="Wrap" Text="chiusura" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnScuolaCrea" Content="crea" HorizontalAlignment="Left" Margin="280,181,0,0" VerticalAlignment="Top" Click="btnScuolaCrea_Click"/>
+        <Label x:Name="lblAlunno" Content="Alunno" HorizontalAlignment="Left" Margin="66,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblScuola" Content="Scuola" HorizontalAlignment="Left" Margin="280,50,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAlunnoAnni" HorizontalAlignment="Left" Margin="66,135,0,0" TextWrapping="Wrap" Text="età" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAlunnoToString" Content="toString" HorizontalAlignment="Left" Margin="117,181,0,0" VerticalAlignment="Top" Click="btnAlunnoToString_Click"/>
+        <Button x:Name="btnAlunnoAnno" Content="classi" HorizontalAlignment="Left" Margin="117,206,0,0" VerticalAlignment="Top" Click="btnAlunnoAnno_Click"/>
+        <Button x:Name="btnScuolaToString" Content="toString" HorizontalAlignment="Left" Margin="331,181,0,0" VerticalAlignment="Top" Click="btnScuolaToString_Click"/>
+
     </Grid>
 </Window>

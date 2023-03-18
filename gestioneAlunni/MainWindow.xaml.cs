@@ -24,9 +24,9 @@ namespace gestioneAlunni
         {
             InitializeComponent();
         }
-        
-        alunno a = new alunno();
-        scuola sc = new scuola();
+
+        alunno a;
+        scuola sc;
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -46,7 +46,28 @@ namespace gestioneAlunni
 
         private void btnScuolaCrea_Click(object sender, RoutedEventArgs e)
         {
+            sc = new scuola();
+            sc.nome = txtScuolaNome.Text;
+            sc.indirizzo = txtScuolaIndirizzo.Text;
+            sc.apertura = DateTime.Parse(txtScuolaApertura.Text);
+            sc.chiusura = DateTime.Parse(txtScuolaChiusura.Text);
 
+            MessageBox.Show("Creata scuola!");
+        }
+
+        private void btnAlunnoToString_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(a.toString(a));
+        }
+
+        private void btnAlunnoAnno_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(a.classi(a));
+        }
+
+        private void btnScuolaToString_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(sc.toString(sc));
         }
     }
 }
