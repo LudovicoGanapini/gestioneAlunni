@@ -24,5 +24,29 @@ namespace gestioneAlunni
         {
             InitializeComponent();
         }
+        
+        alunno a = new alunno();
+        scuola sc = new scuola();
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+        }
+
+        private void btnAlunnoCrea_Click(object sender, RoutedEventArgs e)
+        {
+            a = new alunno();
+            a.nome = txtAlunnoNome.Text;
+            a.cognome = txtAlunnoCognome.Text;
+            a.età = int.Parse(txtAlunnoAnni.Text);
+            a.città = txtAlunnoCittà.Text;
+
+            MessageBox.Show("Creato alunno!");
+        }
+
+        private void btnScuolaCrea_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
