@@ -8,12 +8,35 @@ namespace gestioneAlunni
 {
     internal class alunno
     {
-        string nome;
-        string cognome;
-        int età;
-        string città;
+        
 
+        public string nome;
+        public string cognome;
+        public int età;
+        public string città;
 
+        //metodi
 
+        public string toString(alunno p)
+        {
+            string s = "";
+            s = p.nome + p.cognome + p.età.ToString() + p.città;
+            return s;
+        }
+        
+        public string classi(alunno p)
+        {
+            string s = "";
+
+            if (p.età < 16)
+            {
+                s = "Biennio";
+            }
+            else
+            {
+                s = "Triennio";
+            }
+            return s;
+        }
     }
 }
