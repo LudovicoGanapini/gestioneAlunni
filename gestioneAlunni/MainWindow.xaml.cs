@@ -24,7 +24,8 @@ namespace gestioneAlunni
         {
             InitializeComponent();
         }
-
+        //commento fatto da github
+        
         alunno a;
         scuola sc;
 
